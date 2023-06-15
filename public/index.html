@@ -1,15 +1,344 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <title>Bonjour2</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+            
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+         <!--Bootstarap css-->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+       
+        <!-- custom script-->
+        <script src="js/script.js"></script>
+
+        <!-- custom Css-->
+        <link rel="stylesheet" href="css/myStyle.css" type="text/css">
+        <link rel="stylesheet" href="css/preStyle.css" type="text/css">
+        <link rel="stylesheet" href="css/resize.css" type="text/css">
     </head>
     <body>
-        <h1> My First Express Website</h1>  
-        <script src="" async defer></script>
+
+        <!-- navbar-->
+        <div id="sidenav" class="sidenav">
+            <a href="#intro" id="intro-navbar">IntroDuction</a>
+            <a href="#we-are" id="we-are-navbar">Our Story</a>
+            <a href="#events" id="events-navbar">Functions</a>
+            <a href="#reach-us" id="reach-us-navbar">Reach Us</a>
+            <div id="switch">
+                <div id="toggle-switch"></div>
+                <div class="toggle-text" id="toggle-text-ON">Slide:ON</div>
+                <div class="toggle-text" id="toggle-text-OFF">Slide:OFF</div>
+            </div>
+        </div>
+        
+
+        <!-- Intro -->
+        <div class="conatiner bg-img" id="intro">
+            <h1 id="intro-title">Bievenue</h1>
+            <p>lorem Ipsum, Lorem Ipsum, Lorem Ipsum</p>
+            <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+            </em></p>
+        </div> 
+        
+         <!-- WE Are -->
+         <div class="conatiner bg-img" id="we-are">
+            <div class="grid-container">
+                  <!-- Carouel -->
+                <div id="we-are-carousel" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#we-are-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#we-are-carousel" data-slide-to="1"></li>
+                        <li data-target="#we-are-carousel" data-slide-to="2"></li>
+                        <li data-target="#we-are-carousel" data-slide-to="3"></li>
+                        <li data-target="#we-are-carousel" data-slide-to="4"></li>
+                    </ul>                  
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/carousel/img_couple_01.jpg" alt="image 01">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/carousel/img_couple_02.jpg" alt="image 02">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/carousel/img_couple_03.jpg" alt="image 03">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/carousel/img_couple_04.jpg" alt="image 04">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/carousel/img_couple_05.jpg" alt="image 05">
+                        </div>
+                    </div>
+                  
+                    <a class="carousel-control-prev" href="#we-are-carousel" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#we-are-carousel" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>                 
+                </div>
+            
+               <!-- We are Text-->
+                <div id="we-are-text" >
+                        <h1 id="we-are-title">Our Story</h1>
+                        <p>sdasdasd asdasdas dasdasda sdasdadsa sda</p>
+                        <p><em>lorem Ipsum, lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsumlorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem IpsumLorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsumlorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem IpsumLorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ips Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                    </em></p>
+                    <p><em>lorem Ipsum, lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsumlorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem IpsumLorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ips Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            </em></p>
+                            <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                                lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            </em></p>
+                         <p><em>lorem Ipsum, lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsumlorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem IpsumLorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ips Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                    lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                    lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                    lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                        <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                            lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                        </em></p>
+                </div>
+            </div>
+        </div>
+
+         <!-- Events -->
+         <div class="conatiner bg-img" id="events">
+                <h1 id="events-title">Events</h1>
+                <p>lorem Ipsum, Lorem Ipsum, Lorem Ipsum</p>
+                <p><em>lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                    lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                    lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                    lorem Ipsum, Lorem Ipsum, Lorem Ipsum
+                </em></p>
+                <div class="container-fluid flip-cards">
+                    <div class="row">                        
+                        <div class="col-sm-4  center" >
+                            <div class="flip-card" id="flip-card-one">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-back" >
+                                        <img class="card-event" src="img/event/event_one.jpg" alt="Ring Ceremony" >
+                                    </div>
+                                    <div class="flip-card-front">
+                                      <h1>Ring Ceremony</h1> 
+                                        <p>Dehradun</p> 
+                                        <p>06 February, 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-below" id="flip-below-one">
+                                <p class="event-title"><strong>Ring Ceremony</strong></p>
+                                <div class="event-details">
+                                    <span class="event-venue">@Dehradun, Uttarakhand<br/></span>
+                                    <span class="event-date">06 February, 2019<br/></span>
+                                    <span class="event-time" id="event-one-togo"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 center" >
+                            <div class="flip-card" id="flip-card-two">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-back">
+                                        <img class="card-event" src="img/event/event_two.jpg" alt="Marraige">
+                                    </div>
+                                    <div class="flip-card-front">
+                                        <h1>Marraige</h1> 
+                                        <p>Dehradun</p> 
+                                        <p>08 February, 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-below" id="flip-below-two">
+                                <p class="event-title"><strong>Marraige</strong></p>
+                                <div class="event-details">
+                                    <span class="event-venue">@Dehradun, Uttarakhand<br/></span>
+                                    <span class="event-date">08 February, 2019<br/></span>
+                                    <span class="event-time" id="event-two-togo"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4  center ">
+                            <div class="flip-card" id="flip-card-three">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-back">
+                                        <img class="card-event" src="img/event/event_three.jpg" alt="Reception">
+                                    </div>
+                                    <div class="flip-card-front">
+                                        <h1>Reception</h1> 
+                                        <p>Dehradun</p> 
+                                        <p>10 February, 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-below" id="flip-below-three">
+                                <p class="event-title"><strong>Reception</strong></p>
+                                <div class="event-details">
+                                    <span class="event-venue">@Dehradun, Uttarakhand<br/></span>
+                                    <span class="event-date">10 February, 2019<br/></span>
+                                    <span class="event-time" id="event-three-togo"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+         <!-- Reach US -->
+         <div class="conatiner bg-img" id="reach-us">
+            <h1 id="reach-us-title">Reach Us</h1>
+            <p>lorem Ipsum, Lorem Ipsum, Lorem Ipsum</p>
+            <div class="container-fluid">
+                <div class="row comment-form">
+                    <div class="col-sm-6">
+                        <div id="comment-section">
+                            <i class="fa fa-comment-o" data-toggle="modal" data-target="#modalThoughts" style="font-size:100px"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="form-control">
+                        <form class="form-container" action="" method="post">
+                            <div class="form-group">
+                                <!--<h2 id="contact-us">Contact Us</h2>-->
+                                <label for="name"><strong>Name</strong></label><br/>
+                                <input name="name" class="form-control" type="text" placeholder="Your Name Here..."><br/>
+                                <label for="email"><strong>Email</strong></label><br/>
+                                <input name="email" class="form-control" type="text" placeholder="Your Email Here..."><br/>
+                                <label for="comments"><strong>Say Something</strong></label><br/>
+                                <textarea name="comments" class="form-control" rows="4" placeholder="Place your comments here..."></textarea><br/>
+                                <button type="submit" class="btn btn-success" name="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Modal Thoughts-->
+                <div class="modal modal-wide fade " id="modalThoughts">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                    
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">Our Wishers</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                    
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <div class="comment">
+                                    <p><span class="comment-text" ><i>"Make it as simple as possible, but not simpler. dasdasda asdad asdasda"</i></span><br/>
+                                    <span  class="comment-name">- Albert Einstein</span></p>
+                                </div>
+                                <div class="comment">
+                                    <p><span class="comment-text" ><i>"Lorem ipsum fortedium gala zaga fityou dondw gyronpo lopium"</i></span><br/>
+                                    <span  class="comment-name" >- Internet</span></p>
+                                </div>                            
+                            </div>
+                    
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">Copyrights &copy;2018-19, NeeZ. All Rights Reserved. </div>
+
     </body>
 </html>

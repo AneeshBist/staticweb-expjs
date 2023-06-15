@@ -1,0 +1,48 @@
+@media only screen and (max-width:575px){
+    
+    /******************* We Are **********************/
+    .grid-container{
+        width:auto;
+        height:100vh;
+    }
+
+    /******************* Flip Card *******************/
+    .flip-card-front{
+        padding:20px;
+        display:block;
+        border-radius:50%;
+    }
+
+    .flip-card{
+        margin-top:30px;
+    }
+    .card-below{
+        margin-bottom:30px;
+    }
+    .card-event{
+        width: 250px;
+        height: 370px;
+    }
+
+    /***************** Reach Us **********************/
+    #comment-section{
+        margin: 5px 5px 5px 5px;
+       
+    }
+    input[type=text], label, textarea {
+        margin-top: 5px;
+    }
+
+    #contact-us{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:576px){
+    #contact-us{
+        display: block;
+    }
+}
+@media only screen and (max-width:550px){
+  
+}
